@@ -23,4 +23,4 @@ for elemento in lista_comandos:
             custo_loop += custos[elemento]
         else:
             custo_total += custos[elemento]
-print(custo_total)S
+print(custo_total)
