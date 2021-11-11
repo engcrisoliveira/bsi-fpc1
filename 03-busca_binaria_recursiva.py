@@ -6,7 +6,6 @@ x = lista.pop(0)
 
 def busca_binaria_recursiva(lista, x, comparacao=1):
     meio__da_lista = floor(len(lista)/2)
-    print(lista)
     if x == lista[meio__da_lista]:
         return comparacao
     elif x < lista[meio__da_lista]:
